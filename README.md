@@ -23,34 +23,45 @@ Before running the Python script, ensure you have the following installed:
 
 You can install the necessary libraries using pip:
 ```bash
-```pip install pandas matplotlib sqlite3
+pip install pandas matplotlib sqlite3
+```
 
-#Getting Started
+## Getting Started
+
 Clone the repository and navigate to the software directory:
 
-bash
+```bash
 Copy code
 git clone https://github.com/yourgithubusername/helmet-system.git
 cd helmet-system/software
-Running the Application
-To run the dashboard application, execute:
+```
 
+## Running the Application
+
+To run the dashboard application, execute:
+```
 bash
 Copy code
 python dashboard.py
-Usage Instructions
-Connect to Helmet:
+```
 
+## Usage Instructions
+
+Connect to Helmet:
 Click the "Connect to Helmet" button to establish a serial connection with the helmet.
 Ensure the correct COM port is set in the script.
-Monitoring:
+
+## Monitoring:
 
 The dashboard will display real-time updates of CO levels and whether the helmet is currently worn.
 Alerts are visually displayed if CO levels exceed the predefined safe threshold.
-Data Export:
+
+## Data Export:
 
 Use the "Export to Excel" button to save the collected data to an Excel file for offline analysis.
-Software Structure
+
+## Software Structure
+
 dashboard.py: Main script for running the graphical user interface.
 sensor_data.db: SQLite database file for storing sensor readings.
 helmet_data.xlsx: Default output file for data export.
