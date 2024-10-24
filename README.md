@@ -62,6 +62,6 @@ Use the "Export to Excel" button to save the collected data to an Excel file for
 
 ## Software Structure
 
-dashboard.py: Main script for running the graphical user interface.
-sensor_data.db: SQLite database file for storing sensor readings.
-helmet_data.xlsx: Default output file for data export.
+- dashboard.py: Main script for running the graphical user interface.
+- sensor_data.db: SQLite database file for storing sensor readings.
+- helmet_data.xlsx: Default output file for data export.
